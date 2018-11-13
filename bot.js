@@ -14,7 +14,7 @@ client.on("guildMemberAdd", member => {
 قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
 طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.  
 You're In  **Energy** ,  Welcome ..
-    https://discord.gg/xwxBEEj   `]
+   https://discord.gg/z9wBJDC   `]
   setTimeout(() =>{
   member.createDM().then(function (channel) {
   return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
