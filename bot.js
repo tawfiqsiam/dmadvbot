@@ -7,12 +7,8 @@ console.log("Savage");
 
 client.on("guildMemberAdd", member => {
     timer = Math.floor(Math.random() * (20000 - 5000 + 2)) + 15000
-  let words = [`  آهلاً ايها الجميل . الضائع. 
- أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
-وفي كُل مرة تُحاول النهُوض فيها تُسقِطكَ أرضاً 
-لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
-قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
-طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.  
+  let words = [` ** Oh God i finnaly found you i have been looking everywhere for you 
+we are waiting for you in this server you are going to have a great time in this server **
 You're In  **Energy** ,  Welcome ..
    https://discord.gg/z9wBJDC   `]
   setTimeout(() =>{
@@ -24,4 +20,4 @@ You're In  **Energy** ,  Welcome ..
 
 
 
-client.login('NTA4OTczODQwNTA5MTczODA5.DsHfqg.whlu1jfWXOmdCMCRWUxGlWDcIxw');
+client.login('BOT_TOKEN');
