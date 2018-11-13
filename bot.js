@@ -1,23 +1,18 @@
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
-let timer;
-console.log("Savage");
 
-
+console.log("Welcome Again !");
+console.log("By The Ghost");
+client.on('ready', () => {
+client.user.setStatus('idle');
+});
 
 client.on("guildMemberAdd", member => {
-    timer = Math.floor(Math.random() * (20000 - 5000 + 2)) + 15000
-  let words = [` ** Oh God i finnaly found you i have been looking everywhere for you 
-we are waiting for you in this server you are going to have a great time in this server **
-You're In  **Energy** ,  Welcome ..
-   https://discord.gg/z9wBJDC   `]
-  setTimeout(() =>{
-  member.createDM().then(function (channel) {
-  return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
+member.createDM().then(function (channel) {
+return channel.send(`**join this server you are going to have fun here trust me 😉
+https://discord.gg/SchAZnU **`)
 }).catch(console.error)
-}, timer)
-20000 })
+})
 
-
-
-client.login('BOT_TOKEN');
+client.login('NDc5NjQ1MjE2NTg5MjE3ODEz.DlmOeQ.j3Ck48urzhjG0UCR2bU6-iQa_Jo'); 
